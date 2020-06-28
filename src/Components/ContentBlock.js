@@ -11,12 +11,14 @@ import Grid from '@material-ui/core/Grid';
 //     }
 // }
 
-const ContentBlock = ({bgColor, content}) => {
+const ContentBlock = ({bgColor, title}) => {
+    const backgroundClass = bgColor ? "contentPadding purpleBG" : "contentPadding"
+    const titleClass = bgColor ? "title" : "darkTitle"
     return(
-        <Grid className="contentPadding">
-            <Grid className="darktitle">
+        <Grid className={backgroundClass}>
+            <Grid className={titleClass}>
                 <div>
-                    <h3 className="center">{content.title}</h3>
+                    <h3 className="center">{title}</h3>
                 </div>
             </Grid>
             <Grid
@@ -26,6 +28,10 @@ const ContentBlock = ({bgColor, content}) => {
             alignItems="center"
             className="contentPadding"
             >
+                {
+                    // The following part depends on how you arrange your content 
+                    // So, let's figure that out first
+                }
                 <div className="center">
                     <p>TBCLE</p>
                     <p>
