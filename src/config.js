@@ -24,7 +24,7 @@ export const content = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     title: "Doelgroep",
     bgColor: true,
     contentBlocks: [
@@ -44,7 +44,7 @@ export const content = [
     ],
   },
   {
-    id: 1,
+    id: 4,
     title: "User story's",
     bgColor: false,
     contentBlocks: [
@@ -64,9 +64,9 @@ export const content = [
     ],
   },
   {
-    id: 1,
+    id: 5,
     title: "Definition of Done",
-    bgColor: true,
+    bgColor: false,
     contentBlocks: [
       {
         type: "list",
@@ -81,9 +81,9 @@ export const content = [
     ],
   },
   {
-    id: 1,
+    id: 6,
     title: "Prototype",
-    bgColor: false,
+    bgColor: true,
     contentBlocks: [
       {
         type: "text",
@@ -92,7 +92,7 @@ export const content = [
     ],
   },
   {
-    id: 1,
+    id: 7,
     title: "Team",
     bgColor: false,
     contentBlocks: [
@@ -102,8 +102,8 @@ export const content = [
           name: "Sven Koene",
           titles: ["Designer", "Web developer"],
           img: {
-            src: "",
-            alt: "",
+            src: "https://cdn.discordapp.com/attachments/387340404804026368/728258546914951168/mGNv_hns_400x400.jpg",
+            alt: "Foto Sven",
           },
         },
       },
@@ -113,8 +113,8 @@ export const content = [
           name: "Rachelle Bosman",
           titles: ["Project leider", "App developer"],
           img: {
-            src: "",
-            alt: "",
+            src: "https://media.discordapp.net/attachments/387340404804026368/728258543014379600/download.jpg",
+            alt: "Foto Rachelle",
           },
         },
       },
@@ -124,8 +124,8 @@ export const content = [
           name: "Janessa Labeur",
           titles: ["Designer", "Support"],
           img: {
-            src: "",
-            alt: "",
+            src: "https://cdn.discordapp.com/attachments/387340404804026368/728261906569363586/portret_2.jpg",
+            alt: "Foto Janessa",
           },
         },
       },

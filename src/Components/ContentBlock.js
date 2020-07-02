@@ -9,8 +9,8 @@ const ContentTypes = ({ type, content }) => {
     case "list":
       return (
         <ul className="contentMargin">
-          {content.map((item) => (
-            <li>{item}</li>
+          {content.map((item, i) => (
+            <li key={`list-item-${i * Math.random()}`}>{item}</li>
           ))}
         </ul>
       );
@@ -21,11 +21,11 @@ const ContentTypes = ({ type, content }) => {
     case "profile":
       return (
         <div>
-          <img src={content.src} alt={content.alt} />
+          <img src={content.img.src} alt={content.img.alt} className="teamImg"/>
           <h3>{content.name}</h3>
           <ul>
-            {content.titles.map((item) => (
-              <li>{item}</li>
+            {content.titles.map((item, i) => (
+              <li key={`list-item-${i * Math.random()}`}>{item}</li>
             ))}
           </ul>
         </div>
@@ -50,12 +50,12 @@ const ContentBlock = ({ title, bgColor, contentBlocks }) => {
       <Grid
         container
         direction="row"
-        justify="space-evenly"
+        justify="space-around"
         alignItems="center"
         className="contentPadding"
       >
-        {contentBlocks.map((item) => (
-          <ContentTypes {...item} />
+        {contentBlocks.map((item, i) => (
+          <ContentTypes key={`content-type-${i}`} {...item} />
         ))}
       </Grid>
     </Grid>
