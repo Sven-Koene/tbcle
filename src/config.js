@@ -66,10 +66,10 @@ export const content = [
   {
     id: 1,
     title: "Definition of Done",
-    bgColor: false,
+    bgColor: true,
     contentBlocks: [
       {
-        type: "text",
+        type: "list",
         content: [
           "Vindbaar maken van QR code voor iemand die slechtziend of blind is.",
           "QR code kan worden gescand door de applicatie.",
@@ -83,7 +83,7 @@ export const content = [
   {
     id: 1,
     title: "Prototype",
-    bgColor: true,
+    bgColor: false,
     contentBlocks: [
       {
         type: "text",

@@ -30,6 +30,7 @@ h3{
 .purpleBG{
   background-color: #403A7D;
   color:white;
+  height: 100vh;
 }
 
 .title{
@@ -50,4 +51,8 @@ color: white;
 
 .contentPadding{
   padding: 5rem 0rem;
+}
+
+.contentMargin{
+  margin: 0 20%;
 }
