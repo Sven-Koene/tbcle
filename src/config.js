@@ -19,7 +19,7 @@ export const content = [
       {
         type: "text",
         content:
-          "Met de inzichten die we uit het onderzoek hebben verkregen zijn we crazy 8’s gaan doen. Dit houdt in dat we individueel acht concepten schetsen, met allemaal 1 minuut de tijd per schets. Uiteindelijk leggen we de concepten aan elkaar voor en kijken of we deze kunnen combineren of uitbreiden. Hieronder zijn de schetsen te zien die we gemaakt hebben. De concepten die hier uitgekomen zijn, zijn een placemat waarop de bediening kan zien waar de spullen op tafel moeten staan en een applicatie waarin het menu voorgelezen wordt. Door het interview met de doelgroep en de feedback bij de presentaties kunnen we het eerste concept uitsluiten. Een placemat zal in dit geval namelijk niet veel waarde toevoegen.",
+          "Met de inzichten die we uit het onderzoek hebben verkregen zijn we crazy 8’s gaan doen. Dit houdt in dat we individueel acht concepten schetsen, met allemaal 1 minuut de tijd per schets. Uiteindelijk leggen we de concepten aan elkaar voor en kijken of we deze kunnen combineren of uitbreiden. Hieronder zijn de schetsen te zien die we gemaakt hebben. De concepten die hier uitgekomen zijn, zijn een placemat waarop de bediening kan zien waar de spullen op tafel moeten staan en een applicatie waarin het menu voorgelezen wordt. Door het interview met de doelgroep en de feedback bij de presentaties kunnen we het eerste concept uitsluiten. Een placemat zal in dit geval namelijk niet veel waarde toevoegen. <br></br> <img width=\"250px\" alt=\"Schetsen Rachelle\" src=\"https://cdn.discordapp.com/attachments/387340404804026368/728280352908509344/3400bf57-c665-4cba-8d6e-9c1217a7bca6.png\" /> <img width=\"250px\" alt=\"Schetsen Sven\" src=\"https://cdn.discordapp.com/attachments/387340404804026368/728280786926567495/4c3fe796-14b0-41d8-9f1a-fbefa5417751.png\" /> <img width=\"250px\" alt=\"Schetsen Janessa\" src=\"https://cdn.discordapp.com/attachments/387340404804026368/728280500703199374/d500c74f-f18c-4ac6-bf72-b2e43d06466a.png\" />",
       },
     ],
   },
@@ -66,7 +66,7 @@ export const content = [
   {
     id: 5,
     title: "Definition of Done",
-    bgColor: false,
+    bgColor: true,
     contentBlocks: [
       {
         type: "list",
@@ -83,18 +83,25 @@ export const content = [
   {
     id: 6,
     title: "Prototype",
-    bgColor: true,
+    bgColor: false,
     contentBlocks: [
       {
         type: "text",
-        content: "Na met de doelgroep gesproken te hebben bleek ons eerste concept niet relevant te zijn. Om deze reden hebben we ervoor gekozen verder te gaan met het andere concept. De menu filter app. In het prototype begin je bij het scannen van een QR code. Zodra deze is gescand komt het volledige menu op het scherm te staan. Vanuit hier kan je luisteren wat er op het menu staat of het menu filteren naar waar jij trek in hebt. Op deze manier wordt het menu een stuk toegankelijker voor blinde en slechtziende. Wij vonden het belangrijk dat het prototype op zowel IOS als Android zou gaan werken. We zijn om dit te kunnen doen gekomen op een React Native app. Uiteindelijk was het haalbaarder om het prototype te programmeren in Vue.js en zijn we hiernaar geswitcht.",
+        content: "Na met de doelgroep gesproken te hebben bleek ons eerste concept niet relevant te zijn. Om deze reden hebben we ervoor gekozen verder te gaan met het andere concept. De menu filter app. In het prototype begin je bij het scannen van een QR code. Zodra deze is gescand komt het volledige menu op het scherm te staan. Vanuit hier kan je luisteren wat er op het menu staat of het menu filteren naar waar jij trek in hebt. Op deze manier wordt het menu een stuk toegankelijker voor blinde en slechtziende. Wij vonden het belangrijk dat het prototype op zowel IOS als Android zou gaan werken. We zijn om dit te kunnen doen gekomen op een React Native app. Uiteindelijk was het haalbaarder om het prototype te programmeren in Vue.js en zijn we hiernaar geswitcht. Ons prototype vind u <a href=\"http://rachellebosman.github.io\" >hier.</a>"      
+      },
+      {
+        type: "img",
+        content: {
+            src: "https://cdn.discordapp.com/attachments/387340404804026368/728280705842413598/f6470700-ac3a-47b5-aded-9ce9bf9301b9.png",
+            alt: "QR code",
+        }
       },
     ],
   },
   {
     id: 7,
     title: "Team",
-    bgColor: false,
+    bgColor: true,
     contentBlocks: [
       {
         type: "profile",

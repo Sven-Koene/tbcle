@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 const ContentTypes = ({ type, content }) => {
   switch (type) {
     case "text":
-      return <div className="contentMargin">{content}</div>;
+      return <div className="contentMargin" dangerouslySetInnerHTML={{__html: content}}></div>;
     case "list":
       return (
         <ul className="contentMargin">
@@ -14,13 +14,13 @@ const ContentTypes = ({ type, content }) => {
           ))}
         </ul>
       );
-    // case "img":
-    //     return (
-    //         <div>{content}</div>
-    //     )
+    case "img":
+        return (
+            <img src={content.src} alt={content.alt} width={content.width ? content.width : "250px"} />
+        )
     case "profile":
       return (
-        <div>
+        <div className="card">
           <img src={content.img.src} alt={content.img.alt} className="teamImg"/>
           <h3>{content.name}</h3>
           <ul>
