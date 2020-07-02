@@ -13,7 +13,7 @@ import Grid from '@material-ui/core/Grid';
 
 const ContentBlock = ({bgColor, title}) => {
     const backgroundClass = bgColor ? "contentPadding purpleBG" : "contentPadding"
-    const titleClass = bgColor ? "title" : "darkTitle"
+    const titleClass = bgColor ? "title" : "darktitle"
     return(
         <Grid className={backgroundClass}>
             <Grid className={titleClass}>
